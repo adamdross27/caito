@@ -44,7 +44,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <Link to="/dashboard-landing">
-      <img src="/caitoicon.png" alt="Caito Icon" style={{ height: "90px", cursor: "pointer" }} />
+      <img src="/caito/caitoicon.png" alt="Caito Icon" style={{ height: "90px", cursor: "pointer" }} />
 
       </Link>
 

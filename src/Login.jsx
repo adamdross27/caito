@@ -77,7 +77,7 @@ const Login = () => {
       <div className="App">
         <div className="container">
           <div className="logo-section">
-            <Link to="/"><img src="/logo.webp" alt="Caito Logo" className="logo" /></Link>
+            <Link to="/"><img src="/caito/logo.webp" alt="Caito Logo" className="logo" /></Link>
             <p className="tagline">CAITO Solutions for Knowledge & Data Collection, Analysis, and Insights.</p>
           </div>
           <div className="form-section">
@@ -109,7 +109,7 @@ const Login = () => {
               <button type="submit" className={styles.primarybutton}>Log In</button>
               <button type="button" onClick={handleForgotPassword} className={styles.forgotbutton}>Forgot Password</button>
               <br /><br />
-              <button type="button" className={styles.Registerbutton} onClick={() => window.location.href = '/register'}>No, I don't have an Account</button>
+              <button type="button" className={styles.Registerbutton} onClick={() => navigate('/register')}>No, I don't have an Account</button>
             </form>
           </div>
         </div>

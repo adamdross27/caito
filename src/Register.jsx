@@ -68,7 +68,7 @@ const Register = () => {
       <div className="App">
         <div className="container">
           <div className="logo-section">
-            <Link to="/"><img src="/logo.webp" alt="Caito Logo" className="logo" /></Link>
+            <Link to="/"><img src="/caito/logo.webp" alt="Caito Logo" className="logo" /></Link>
             <p className="tagline">CAITO Solutions for Knowledge & Data Collection, Analysis, and Insights.</p>
           </div>
           <div className="form-section">
@@ -111,7 +111,7 @@ const Register = () => {
               />
               <button type="submit" className={styles.primarybutton}>Register</button>
               <br /><br />
-              <button type="button" className={styles.Registerbutton} onClick={() => window.location.href = '/login'}>Already have an Account?</button>
+              <button type="button" className={styles.Registerbutton} onClick={() => navigate('/login')}>Already have an Account?</button>
             </form>
           </div>
         </div>
