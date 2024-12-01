@@ -1,0 +1,57 @@
+.dashboardLandingPage {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #dab8f3, #a2e7da);
+    color: white;
+    padding: 20px;
+}
+
+.welcomeText {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.dashboardLinks {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    width: 80%;
+    max-width: 1200px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.dashboardLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+    /* Adjust the height as needed */
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 24px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: 'Poppins', sans-serif;
+}
+
+.dashboardLink:hover {
+    background-color: #e0e0e0;
+    color: #000000;
+}
+
+.dashboardIcon {
+    width: 30px;
+    /* Adjust size as needed */
+    height: 30px;
+    margin-right: 10px;
+}

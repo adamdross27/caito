@@ -1,0 +1,178 @@
+/* Button Styles */
+.button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  display: inline-block;
+  font-family: 'Arial', sans-serif;
+}
+
+.button-primary {
+  background-color: #5c4ba0;
+  /* Primary button color */
+  color: #fff;
+}
+
+.button-primary:hover {
+  background-color: #4a3a8c;
+  /* Darker shade on hover */
+}
+
+.button-secondary {
+  background-color: #f0f0f0;
+  /* Secondary button color */
+  color: #5c4ba0;
+  /* Text color */
+}
+
+.button-secondary:hover {
+  background-color: #e0e0e0;
+  /* Darker shade on hover */
+  color: #0056b3;
+  /* Darker text color on hover */
+}
+
+.button-link {
+  background: none;
+  color: #007bff;
+  border: none;
+  text-decoration: none;
+  /* Remove underline for link button */
+  font-size: 16px;
+  font-weight: normal;
+  cursor: pointer;
+  transition: color 0.3s;
+  font-family: 'Arial', sans-serif;
+}
+
+.button-link:hover {
+  color: #ffffff;
+  background-color: #ff0000;
+  /* Darker text color on hover */
+}
+
+.forgot-password-button {
+  background-color: #f0f0f0;
+  /* Use a background color to make it look like a button */
+  color: #007bff;
+  /* Use the same text color as link button */
+  border: 1px solid #007bff;
+  /* Add a border to make it stand out */
+}
+
+.forgot-password-button:hover {
+  background-color: #e0e0e0;
+  /* Darker background color on hover */
+  color: #0056b3;
+  /* Darker text color on hover */
+}
+
+/* Additional styling for other elements */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: 500px;
+  width: 100%;
+}
+
+.logo-section {
+  padding: 40px;
+  background-color: #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.tagline {
+  color: #666;
+  font-size: 16px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.form-section {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+}
+
+.signup-form input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.signup-form input:hover {
+  background-color: #f0f0f0;
+  border-color: #999;
+}
+
+/* Reset styles for the checkbox input */
+.checkbox-container input[type="checkbox"] {
+  width: auto;
+  /* Ensure the checkbox has its default width */
+  margin-right: 5px;
+  /* Adjust spacing between checkbox and label */
+}
+
+/* Ensure the label has consistent styling */
+.checkbox-container label {
+  font-size: 16px;
+  color: #333;
+  white-space: nowrap;
+  /* Prevent line break */
+  font-family: 'Arial', sans-serif;
+}
+
+/* General styles for the checkbox container */
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}

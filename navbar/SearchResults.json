@@ -1,0 +1,87 @@
+[
+  {
+    "title": "Home",
+    "keywords": ["home"],
+    "page": "/dashboard-landing"
+  },
+  {
+    "title": "Dashboard",
+    "keywords": ["dashboard", "graph"],
+    "page": "/dashboard-landing"
+  },
+  {
+    "title": "Insert Data",
+    "keywords": ["data", "insert"],
+    "page": "/insert-data"
+  },
+  {
+    "title": "Dictionary",
+    "keywords": ["Dictionary"],
+    "page": "/dictionary"
+  },
+  {
+    "title": "About Us",
+    "keywords": ["About Us", "CAITO"],
+    "page": "/about"
+  },
+  {
+    "title": "Profile",
+    "keywords": ["profile", "name", "user", "email"],
+    "page": "/profile"
+  },
+  {
+    "title": "Courses",
+    "keywords": ["courses"],
+    "page": "/dashboard/courses"
+  },
+  {
+    "title": "Educators",
+    "keywords": ["educators"],
+    "page": "/dashboard/educators"
+  },
+  {
+    "title": "Employers",
+    "keywords": ["employers"],
+    "page": "/dashboard/employers"
+  },
+  {
+    "title": "Income",
+    "keywords": ["income"],
+    "page": "/dashboard/income"
+  },
+  {
+    "title": "Jobs",
+    "keywords": ["jobs"],
+    "page": "/dashboard/jobs"
+  },
+  {
+    "title": "Population",
+    "keywords": ["population"],
+    "page": "/dashboard/population"
+  },
+  {
+    "title": "Skills",
+    "keywords": ["skills"],
+    "page": "/dashboard/skills"
+  },
+  {
+    "title": "Students",
+    "keywords": ["students"],
+    "page": "/dashboard/students"
+  },
+  {
+    "title": "Trades",
+    "keywords": ["trades"],
+    "page": "/dashboard/trades"
+  },
+  {
+    "title": "Universities",
+    "keywords": ["universities"],
+    "page": "/dashboard/universities"
+  },
+  {
+    "title": "Workforce Planning",
+    "keywords": ["workforce", "planning"],
+    "page": "/workforce-planning"
+  }
+]

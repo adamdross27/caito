@@ -1,0 +1,18 @@
+/* Landing.css */
+.landingPage {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #dab8f3, #a2e7da);
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.welcomeText {
+    margin-top: 20px;
+    font-size: 40px;
+}

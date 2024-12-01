@@ -1,0 +1,275 @@
+ body {
+     background: linear-gradient(to right, #745c94, #83c5f0);
+     font-family: 'Arial', sans-serif;
+     margin: 0;
+     padding: 0;
+ }
+
+ .insertData {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     min-height: 100vh;
+     text-align: center;
+     background: linear-gradient(to right, #745c94, #83c5f0);
+ }
+
+ /* .content-container {
+     background-color: rgba(255, 255, 255, 0.8);
+     padding: 30px;
+     border-radius: 10px;
+     width: 60%;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ } */
+
+ h1.welcomeText {
+     font-size: 2em;
+     color: #ffffff;
+     margin-bottom: 20px;
+ }
+
+ h3.step1,
+ h3.step2 {
+     font-size: 1.2em;
+     color: #ffffff;
+ }
+
+
+ h3 {
+     font-size: 1.2em;
+     color: #ffffff;
+ }
+
+
+
+ .file-upload {
+     cursor: pointer;
+     border-radius: 8px;
+     transition: all 0.3s ease-in-out;
+ }
+
+ .file-upload:hover {
+     border-color: #007bff;
+     background-color: rgba(0, 123, 255, 0.1);
+ }
+
+ .button,
+ .file-upload-button {
+     background-color: #7c5a9d;
+     color: white;
+     padding: 10px 20px;
+     border: none;
+     border-radius: 10px;
+     cursor: pointer;
+     font-size: 18px;
+     transition: background-color 0.3s;
+     font-family: 'Arial', sans-serif;
+     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+     display: inline-block;
+     margin-right: 10px;
+ }
+
+ .file-upload-button:hover {
+     background-color: #5e3f7a;
+     transform: scale(1.05)
+ }
+
+ .file-status {
+     margin-top: 10px;
+     color: #4a4a4a;
+ }
+
+ .category-container {
+     margin-top: 30px;
+ }
+
+ .category-dropdown {
+     margin-top: 10px;
+     padding: 10px;
+     border-radius: 5px;
+     border: 1px solid #ccc;
+     font-size: 1em;
+     width: 500px;
+ }
+
+ .addNewCategoryButton {
+     background-color: #7c5a9d;
+     color: white;
+     border: none;
+     margin-left: 10px;
+     margin-top: -5px;
+     font-size: 18px;
+     border-radius: 10px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+     cursor: pointer;
+     transition: background-color 0.3s, transform 0.2s;
+     margin-bottom: 5px;
+     padding: 14px 16px;
+     font-family: 'Arial', sans-serif;
+ }
+
+ .addNewCategoryButton:hover {
+     background-color: #5e3f7a;
+ }
+
+ .uploadButton {
+     background-color: #7c5a9d;
+     color: white;
+     border: none;
+     border-radius: 12px;
+     padding: 15px 20px;
+     font-size: 20px;
+     font-weight: bold;
+     cursor: pointer;
+     margin-top: 20px;
+     transition: background-color 0.3s;
+     width: 25%;
+ }
+
+ .uploadButton:hover {
+     background-color: #5e3f7a;
+ }
+
+ .guideButton {
+     background-color: #e3e194;
+     color: rgb(5, 0, 0);
+     font-family: 'Arial', sans-serif;
+     position: absolute;
+     top: 70px;
+     right: 10px;
+     padding: 10px 20px;
+     border: none;
+     border-radius: 50%;
+     width: 65px;
+     height: 65px;
+     cursor: pointer;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 15px;
+ }
+
+ .guideButton:hover {
+     background-color: #b9cd3e;
+     font-family: 'Arial', sans-serif;
+ }
+
+ .newCategoryForm {
+     margin-top: 20px;
+     text-align: center;
+ }
+
+ .newCategoryInput {
+     padding: 10px;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+     width: 60%;
+     font-size: 1em;
+ }
+
+ .createCategoryButton {
+     background-color: #28a745;
+     color: white;
+     border: none;
+     border-radius: 5px;
+     padding: 10px 20px;
+     cursor: pointer;
+     margin-left: 10px;
+     font-size: 1em;
+ }
+
+ .createCategoryButton:hover {
+     background-color: #218838;
+ }
+
+ .cancelButton,
+ .cancel-button {
+     background-color: #ff6f61;
+     color: white;
+     border: none;
+     border-radius: 5px;
+     padding: 10px 20px;
+     cursor: pointer;
+     margin-left: 10px;
+     font-size: 1em;
+ }
+
+ .cancelButton:hover,
+ .cancel-button:hover {
+     background-color: #e86454;
+ }
+
+ .buttonContainer {
+     margin-top: 10px;
+ }
+
+ .stepContainer {
+     text-align: left;
+     /* Align text to the left */
+     margin-bottom: 30px;
+     /* Space below the container */
+ }
+
+ .stepHeader {
+     display: flex;
+     /* Use Flexbox to align items */
+     justify-content: flex-start;
+     /* Align items to the left */
+     align-items: center;
+     /* Center items vertically */
+ }
+
+ .stepNumber {
+     display: flex;
+     /* Use Flexbox to center the number */
+     justify-content: center;
+     align-items: center;
+     color: #745c94;
+     font-size: 23px;
+     font-weight: bold;
+     /* Make the number bold */
+     width: 35px;
+     /* Set a width for the circle */
+     height: 35px;
+     /* Set a height for the circle */
+     background-color: white;
+     /* Fill the circle with white */
+     border-radius: 50%;
+     /* Make it a circle */
+     margin-right: 10px;
+     /* Space between number and title */
+     position: relative;
+     /* Position for absolute child */
+     overflow: hidden;
+     /* Ensure the number doesn't overflow */
+ }
+
+ .stepTitle {
+     font-family: 'Arial', sans-serif;
+     font-size: 30px;
+     color: white;
+     /* Font size for the title */
+ }
+
+ .stepDescription {
+     font-family: 'Arial', sans-serif;
+     font-size: 18px;
+     /* Smaller font size for description */
+     margin-top: 10px;
+     /* Space above the description */
+     text-align: left;
+ }
+
+ button:hover {
+     background-color: #0056b3;
+     transform: scale(1.05);
+ }
+
+ button:active {
+     background-color: #004085;
+ }
+
+ button:focus {
+     outline: 2px solid #0056b3;
+ }

@@ -1,0 +1,106 @@
+/* Basic styling for the profile container */
+.profile-container {
+  max-width: 600px;
+  margin: 50px auto;
+  margin-top: 100px;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Styling for the profile title */
+.profile-container h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #333333;
+  font-weight: 600;
+}
+
+/* Styling for the profile information */
+.profile-container p {
+  font-size: 1.2em;
+  margin: 15px 0;
+  color: #555555;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling for the labels (First Name, Last Name, Email) */
+.profile-container .profile-label {
+  font-weight: bold;
+  color: #222222;
+  flex: 0 0 150px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+/* Styling for the values */
+.profile-container .profile-value {
+  margin-left: 10px;
+  color: #777777;
+  flex: 1;
+  text-align: left;
+}
+
+/* Adding a subtle hover effect to the profile container */
+.profile-container:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Add a soft background gradient */
+body {
+  background: linear-gradient(135deg, #f0f0f0, #e0e0e0);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.save-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.save-button:hover {
+  background-color: #45a049;
+}
+
+.cancel-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.cancel-button:hover {
+  background-color: #d32f2f;
+}
+
+.edit-button {
+  background-color: #008cba;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.edit-button:hover {
+  background-color: #007ba7;
+}

@@ -1,0 +1,75 @@
+.Registerbutton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    text-align: center;
+    display: inline-block;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    /* Secondary button color */
+    color: #5c4ba0;
+    /* Text color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .Registerbutton:hover {
+    background-color: #e0e0e0;
+    /* Darker background color on hover */
+    color: #0056b3;
+    /* Darker text color on hover */
+  }
+
+  .forgotbutton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    text-align: center;
+    display: inline-block;
+    font-family: 'Arial', sans-serif;
+    background: none;
+    color: #007bff;
+    border: none;
+    text-decoration: none;
+    /* Remove underline for link button */
+    font-size: 16px;
+    font-weight: normal;
+    cursor: pointer;
+    transition: color 0.3s;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .forgotbutton:hover {
+    color: #ffffff;
+    background-color: #ff0000;
+    /* Darker text color on hover */
+  }
+
+  .primarybutton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    text-align: center;
+    display: inline-block;
+    font-family: 'Arial', sans-serif;
+    background-color: #5c4ba0;
+    /* Primary button color */
+    color: #fff;
+  }
+
+  .primarybutton:hover {
+    background-color: #4a3a8c;
+    /* Darker shade on hover */
+  }

@@ -1,0 +1,62 @@
+[
+    {
+        "title": "Profile",
+        "icon": "BsFillPersonFill",
+        "childrens": [
+            {
+                "title": "Settings",
+                "icon": "BsGearFill",
+                "path": "/"
+            }
+        ]
+    },
+
+    {
+        "title": "Dashboard",
+        "icon": "BsGraphUp",
+        "childrens": [
+            {
+                "title": "Favorites",
+                "icon": "BsHeartFill",
+                "path": "/"
+            }
+        ]
+    },
+    {
+        "title": "Navigation",
+        "icon": "BsFillSignpostSplitFill",
+        "childrens": [
+            {
+                "title": "Home",
+                "icon": "",
+                "path": "/landing"
+            },
+            {
+                "title": "What We Do",
+                "icon": "",
+                "path": ""
+            },
+            {
+                "title": "Case Studies",
+                "icon": "",
+                "path": ""
+            },
+            {
+                "title": "Workforce planning",
+                "icon": "",
+                "path": ""
+            },
+            {
+                "title": "Contact",
+                "icon": "",
+                "path": ""
+            },
+            {
+                "title": "Log Out",
+                "icon": "",
+                "path": ""
+            }
+            
+        ]
+    }
+]

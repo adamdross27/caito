@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+body {
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #494242;
+}
+
+.main {
+  display: flex;
+}
+
+.dashboardcontainer {
+
+  flex: 6;
+  background-color: rgb(159, 156, 167);
+  transition: margin-left 0.3s;
+}
+
+.sidebar {
+  width: 0;
+  flex-shrink: 0;
+  border-right: 0.5px solid rgb(0, 0, 0);
+  background-color: rgb(159, 156, 167);
+  min-height: 100vh;
+  overflow: hidden;
+  text-align: center;
+  transition: width 0.3s;
+}
+
+.sidebar-open {
+  width: 260px;
+}
+
+.sidebar-closed {
+  width: 0;
+
+}
+
+.sidebaritems {
+  padding: 0.75em 1em;
+  display: block;
+  transition: background-color 0.15s, height 0.3s;
+  border-radius: 5px;
+}
+
+.sidebaritems:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.sidebartitle {
+  display: flex;
+  font-size: 1.2em;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.sidebartitle .toggle-btn {
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.sidebaritems.open>.sidebartitle .toggle-btn {
+  transform: rotate(180deg);
+}
+
+.icon {
+  display: inline-block;
+  width: 1.5em;
+  text-align: center;
+}
+
+.sidebarsubmenu {
+  padding-top: 0.25em;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.3s;
+}
+
+.sidebaritems.open>.sidebarsubmenu {
+  height: auto;
+}
+
+.dashboardlogo {
+  height: 150px;
+  width: 150px;
+}
+
+.sidebaricon {
+  height: 50px;
+  width: 50px;
+}
+
+.sidebaritems.plain {
+  color: #fff;
+  text-decoration: none;
+}
+
+.sidebaritems.plain:hover {
+  text-decoration: underline;
+}
+
+.sidebaritems.plain i {
+  display: inline-block;
+  width: 1.7em;
+}
+
+.dashboardNavigationbar {
+  border-bottom: 0.5px solid rgb(0, 0, 0);
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  background-color: rgb(159, 156, 167);
+}
+
+.Navigationbarcontent {
+  display: inline;
+}
+
+.Dashboard {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.Dashboard h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+  font-family: 'Poppins', sans-serif;
+}
+
+.graphcontainer {
+  background-color: #f5f5f5;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.dataCardRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.smallDataCard {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  flex: 1;
+  min-width: 200px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.smallDataCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.smallDataCard h4 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #666;
+  font-family: 'Poppins', sans-serif;
+}
+
+.smallDataCard .dataNumber {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.dataCard {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dataCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.dataCard h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #444;
+  font-family: 'Poppins', sans-serif;
+}
+
+.chartWrapper {
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+.chartContainer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
