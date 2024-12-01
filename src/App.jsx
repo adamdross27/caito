@@ -23,8 +23,9 @@ import Population from '../dashboard/categories/population/population';
 import Skills from '../dashboard/categories/skills/skills';
 import InsertData from '../src/insertData/insertData';
 import WorkforcePlanning from '../workforce-planning/WorkforcePlanning';
+import process from 'process';
 
-
+window.process = process;
 
 function App() {
   return (
@@ -56,7 +57,7 @@ function App() {
         <div className="App">
           <div className="container">
             <div className="logo-section">
-              <Link to="/"><img src="/caitoicon.png" alt="Caito Logo" className="logo" /></Link>
+            <Link to="/"><img src="/caito/caitoicon.png" alt="Caito Logo" className="logo" /></Link>
               <p className="tagline">CAITO Solutions for Knowledge & Data Collection, Analysis, and Insights.</p>
             </div>
             <div className="form-section">
