@@ -28,50 +28,50 @@ import WorkforcePlanning from '../workforce-planning/WorkforcePlanning';
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/landing" element={<Landing />} />
-        <Route path="/dictionary" element={<Dictionary />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
-        <Route path="/dashboard" element={<DashboardPage />} />
-        <Route path="/dashboard-landing" element={<DashboardLanding />} />
-        <Route path="/dashboard/jobs" element={<Jobs />} />
-        <Route path="/dashboard/courses" element={<Courses />} />
-        <Route path="/dashboard/employers" element={<Employers />} />
-        <Route path="/dashboard/educators" element={<Educators />} />
-        <Route path="/dashboard/students" element={<Students />} />
-        <Route path="/dashboard/universities" element={<Universities />} />
-        <Route path="/dashboard/trades" element={<Trades />} />
-        <Route path="/dashboard/income" element={<Income />} />
-        <Route path="/dashboard/population" element={<Population />} />
-        <Route path="/dashboard/skills" element={<Skills />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/profile" element={<Profile />} />
-        <Route path="/insert-data" element={<InsertData />} />
-        <Route path="/workforce-planning" element={<WorkforcePlanning />} />
-        <Route
-          path="/"
-          element={
-            <div className="App">
-              <div className="container">
-                <div className="logo-section">
-                  <Link to="/"><img src="/caitoicon.png" alt="Caito Logo" className="logo" /></Link>
-                  <p className="tagline">CAITO Solutions for Knowledge & Data Collection, Analysis, and Insights.</p>
-                </div>
-                <div className="form-section">
-                  <h2 className="form-title">Welcome to CAITO</h2>
-                  <nav className="nav-links">
-                    <Link to="/login" className={styles.primarybutton}>Log In</Link>
-                  <Link to="/register" className={styles.Registerbutton}>Register</Link>
-                  </nav>
-                </div>
-              </div>
+<Router basename="/caito">
+  <Routes>
+    <Route path="/landing" element={<Landing />} />
+    <Route path="/dictionary" element={<Dictionary />} />
+    <Route path="/login" element={<Login />} />
+    <Route path="/register" element={<Register />} />
+    <Route path="/dashboard" element={<DashboardPage />} />
+    <Route path="/dashboard-landing" element={<DashboardLanding />} />
+    <Route path="/dashboard/jobs" element={<Jobs />} />
+    <Route path="/dashboard/courses" element={<Courses />} />
+    <Route path="/dashboard/employers" element={<Employers />} />
+    <Route path="/dashboard/educators" element={<Educators />} />
+    <Route path="/dashboard/students" element={<Students />} />
+    <Route path="/dashboard/universities" element={<Universities />} />
+    <Route path="/dashboard/trades" element={<Trades />} />
+    <Route path="/dashboard/income" element={<Income />} />
+    <Route path="/dashboard/population" element={<Population />} />
+    <Route path="/dashboard/skills" element={<Skills />} />
+    <Route path="/about" element={<About />} />
+    <Route path="/profile" element={<Profile />} />
+    <Route path="/insert-data" element={<InsertData />} />
+    <Route path="/workforce-planning" element={<WorkforcePlanning />} />
+    <Route
+      path="/"
+      element={
+        <div className="App">
+          <div className="container">
+            <div className="logo-section">
+              <Link to="/"><img src="/caitoicon.png" alt="Caito Logo" className="logo" /></Link>
+              <p className="tagline">CAITO Solutions for Knowledge & Data Collection, Analysis, and Insights.</p>
             </div>
-          }
-        />
-      </Routes>
-    </Router>
+            <div className="form-section">
+              <h2 className="form-title">Welcome to CAITO</h2>
+              <nav className="nav-links">
+                <Link to="/login" className={styles.primarybutton}>Log In</Link>
+                <Link to="/register" className={styles.Registerbutton}>Register</Link>
+              </nav>
+            </div>
+          </div>
+        </div>
+      }
+    />
+  </Routes>
+</Router>
   );
 }
 
