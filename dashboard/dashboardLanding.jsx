@@ -57,43 +57,43 @@ function DashboardLanding() {
       </h1>
       <h3>Click one of the below categories to see data!</h3>
       <div className="dashboardLinks">
-        <a href="/dashboard/courses" className="dashboardLink">
+        <a href="caito/dashboard/courses" className="dashboardLink">
           <FontAwesomeIcon icon={faBook} className="dashboardIcon" />
           Courses
         </a>
-        <a href="/dashboard/educators" className="dashboardLink">
+        <a href="caito/dashboard/educators" className="dashboardLink">
           <FontAwesomeIcon icon={faChalkboardTeacher} className="dashboardIcon" />
           Educators
         </a>
-        <a href="/dashboard/employers" className="dashboardLink">
+        <a href="caito/dashboard/employers" className="dashboardLink">
           <FontAwesomeIcon icon={faBuilding} className="dashboardIcon" />
           Employers
         </a>
-        <a href="/dashboard/income" className="dashboardLink">
+        <a href="caito/dashboard/income" className="dashboardLink">
           <FontAwesomeIcon icon={faDollarSign} className="dashboardIcon" />
           Income
         </a>
-        <a href="/dashboard/jobs" className="dashboardLink">
+        <a href="caito/dashboard/jobs" className="dashboardLink">
           <FontAwesomeIcon icon={faBriefcase} className="dashboardIcon" />
           Jobs
         </a>
-        <a href="/dashboard/population" className="dashboardLink">
+        <a href="caito/dashboard/population" className="dashboardLink">
           <FontAwesomeIcon icon={faGlobe} className="dashboardIcon" />
           Population
         </a>
-        <a href="/dashboard/skills" className="dashboardLink">
+        <a href="caito/dashboard/skills" className="dashboardLink">
           <FontAwesomeIcon icon={faGear} className="dashboardIcon" />
           Skills
         </a>
-        <a href="/dashboard/students" className="dashboardLink">
+        <a href="caito/dashboard/students" className="dashboardLink">
           <FontAwesomeIcon icon={faGraduationCap} className="dashboardIcon" />
           Students
         </a>
-        <a href="/dashboard/trades" className="dashboardLink">
+        <a href="caito/dashboard/trades" className="dashboardLink">
           <FontAwesomeIcon icon={faTools} className="dashboardIcon" />
           Trades
         </a>
-        <a href="/dashboard/universities" className="dashboardLink">
+        <a href="caito/dashboard/universities" className="dashboardLink">
           <FontAwesomeIcon icon={faUniversity} className="dashboardIcon" />
           Universities
         </a>
